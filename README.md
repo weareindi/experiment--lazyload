@@ -1,6 +1,7 @@
-# Lozyload *(WIP, Not ready for production use)*
+# Lozyload   
+**WIP** *aka "It works but you probably shouldn't use this in production"*
 
-> An attempt to better the standard lazy load.   
+> An experiment to better the standard lazy load.   
 **I may fail**.   
 
 ---
@@ -82,5 +83,3 @@ However, if I start to throttle the connection, the likelihood increases that th
 
 That wasn't the plan but as the script utilises progressive enhancement and ease of use. I feel it's a compromise that I'm happy to live with.   
 Looking at that caveat from another angle; if the user has a high speed connection then the lazyload kicking in a few bytes too late probably isn't a big issue to them.   
-
-...*to be continued*   

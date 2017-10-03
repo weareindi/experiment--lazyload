@@ -1,0 +1,19 @@
+{
+  "name": "ozpital/lozyload",
+  "version": "0.0.1",
+  "description": "An experiment to better the standard lazy load",
+  "author": "Laurence Archer <l.archer@ozpital.com> (https://ozpital.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ozpital/lozyload.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "^4.3.11",
+    "load-gulp-tasks": "^0.1.0",
+    "run-sequence": "^1.2.2"
+  }
+}

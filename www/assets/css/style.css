@@ -1,0 +1,34 @@
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.lozyload {
+    position: relative;
+
+    background-color: red;
+}
+
+.lozyload img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+
+    transition-property: opacity;
+    transition-duration: 250ms;
+    transition-delay: 250ms;
+}
+
+.lozyload--loaded img {
+    opacity: 1;
+}
